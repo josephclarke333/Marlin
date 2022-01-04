@@ -58,6 +58,9 @@ Post Installation Steps:
   - M501
 - (Optional)- Calibrate steps per mm for extruder
 
+## Notes
+- The new firmware  uses a baudrate of 250000, so if you have trouble connecting over usb try changing your baudrate.
+
 ## Disclaimer
 I am NOT a programmer not am I a 3D printer expert just an enthusiast who likes to work with code and 3D printers.
 **You are downloading, compiling, installing and using this firmware at your own risk and I take no responsibility to any damage caused to you, your printer or any other person/item as a result of this firmwarea**
