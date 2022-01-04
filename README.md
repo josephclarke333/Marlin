@@ -31,13 +31,11 @@ Fork of marlin configured and compiled for the easythreed X1. My aim is to provi
 This will just be quick and simple for now but I'll update it later to make it easier to follow
 
 Installing:
-- Click Code>Download Zip>Save to Wherever You Want
-- Unzip folder
-- Open the folder where you saved it and open  Marlin>.pio>build>sanguino1284p_optimized and copy firmware.hex from that folder to somehwere you will remember
+- See https://github.com/josephclarke333/Marlin-EasythreedK1/releases to get latest compiled firmware.hex
 - Connect your printer to your computer via USB
 - Open cura or prusa slicer
-  - In cura - Click Settings>Your_Printer_name>Manage Printers Then in the window that popped up select your printer and click Update Firmware>Upload Custom Firmware and slect the hex file
-  - In prusa slicer - Click  Configuration>Flash Printer Firmware Select the firmware.hex file you copied before and the serial port your printer is connected to and  click  Flash!
+  - In cura - Click Settings>Your_Printer_name>Manage Printers Then in the window that popped up select your printer and click Update Firmware>Upload Custom Firmware and slect the hex file you  downloaded from releases
+  - In prusa slicer - Click  Configuration>Flash Printer Firmware Select the firmware.hex file you downloaded from releases and the serial port your printer is connected to and click Flash!
   - If flashing fails (which it often seems to on the X1 you will need to compile from source and upload with platformio and autobuildmarlin
 
 Compiling:
