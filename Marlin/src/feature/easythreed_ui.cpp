@@ -329,6 +329,7 @@ void EasythreedUI::feedButton() {
         flag = false;                                               // Restore flag to false
         filament_status = FS_IDLE;                                  // Go back to idle state
         thermalManager.disable_all_heaters();                       // And disable all the heaters
+        queue.clear();                                              // Clear queue
         blinkFEED_interval_ms = LED_OFF;
         quickstop_stepper();                                        // Hard-stop all the steppers ... now!
       }
@@ -420,6 +421,7 @@ void EasythreedUI::retractButton() {
         flag = false;                                               // Restore flag to false
         filament_status = FS_IDLE;                                  // Go back to idle state
         thermalManager.disable_all_heaters();                       // And disable all the heaters
+        queue.clear();                                              // Clear queue
         blinkRETRACT_interval_ms = LED_OFF;
         quickstop_stepper();                                        // Hard-stop all the steppers ... now!
       }
