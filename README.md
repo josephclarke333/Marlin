@@ -54,7 +54,7 @@ Post Installation Steps:
   - M502
   - M500
   - M501
-- (Optional)- Calibrate steps per mm for extruder
+- (Optional)- Calibrate steps per mm for extruder => this is a good link to get started https://all3dp.com/2/how-to-calibrate-a-3d-printer-simply-explained/
 
 ## Notes
 - The new firmware  uses a baudrate of 250000, so if you have trouble connecting over usb try changing your baudrate.
